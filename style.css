@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(8, 8, 117);
+}
+
+
+.qor {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    animation: imgs 1.5s infinite ease-in;
+}
+
+img:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(3) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(5) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(6) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(7) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(8) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(9) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(10) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(11) {
+    animation-delay: 0.1s;
+}
+
+@keyframes imgs {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(700px);
+    }
+}
+
+.box {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    left: 1100px;
+}
+
+.box .inbox:nth-child(2) {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(214, 210, 210);
+    margin: auto;
+    position: absolute;
+    top: -180px;
+    left: 40px;
+    background-color: white;
+    z-index: 100;
+}
+
+.box .inbox:nth-child(3) {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(214, 210, 210);
+    margin: auto;
+    background-color: white;
+}
+
+.box .inbox:nth-child(4) {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(214, 210, 210);
+    margin: auto;
+    background-color: white;
+}
+
+.box .boshkiyim {
+    width: 160px;
+    height: 150px;
+    background-color: chocolate;
+    margin: auto;
+    position: absolute;
+    top: -280px;
+    left: 50px;
+    border-radius: 20px 20px 0 0;
+}
+
+.box .qol {
+    width: 170px;
+    height: 15px;
+    background-color: chocolate;
+    border: 1px solid;
+    position: absolute;
+    top: 100px;
+    right: 210px;
+    transform: rotate(145deg);
+}
+
+.box .qol2 {
+    width: 170px;
+    height: 15px;
+    background-color: chocolate;
+    border: 1px solid;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    transform: rotate(35deg);
+}
+
+.box .nuqta {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+.box .inbox .nuqta:nth-child(1) {
+    left: 120px;
+    top: 25px;
+}
+
+.box .inbox .nuqta:nth-child(2) {
+    left: 120px;
+    top: 70px;
+}
+
+.box .inbox .nuqta:nth-child(3) {
+    left: 120px;
+    top: 115px;
+}
+
+.box .inbox .nuqta:nth-child(4) {
+    left: 120px;
+    top: 160px;
+}
+
+.box .inbox .koz {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+.box .inbox .koz:nth-child(1) {
+    left: 40px;
+    top: 45px;
+}
+
+.box .inbox .koz:nth-child(2) {
+    right: 40px;
+    top: 45px;
+}
+
+.box .inbox .burun {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 80px;
+}
+
+.box .inbox .ogiz {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    border-bottom: 7px solid red;
+    background-color: white;
+    left: 50px;
+    top: 70px;
+}
